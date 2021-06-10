@@ -1,0 +1,62 @@
+p{
+  padding: 3px;
+  font-family: cursive;
+  font-weight: bold;
+}
+h1{
+  font-size: 175%;
+  font-family: cursive;
+  text-align: center;
+}
+div{
+  font-size: 125%;
+  position: relative;
+  border: 1px solid black;
+  top: 0px;
+  left: 65%;
+  text-align: center;
+  width: 35%;
+}
+#section-title-1{
+  background-color: cyan;
+}
+#section-title-2{
+  background-color: red;
+  color: yellow;
+}
+#section-title-3{
+  background-color: purple;
+  color: white;
+}
+#sec-1,#sec-2,#sec-3{
+  background-color: grey;
+  margin: 3px;
+  border: 1px black solid;
+  float: left;
+}
+@media (min-width : 992px){
+  #sec-1,#sec-2,#sec-3{
+    width: 32%;
+  }
+}
+@media (min-width : 768px) and (max-width : 991px){
+  #sec-1,#sec-2{
+    margin: 5px;
+    width: 48.5%;
+  }
+  #sec-3{
+    width: 98.5%;
+  }
+  #section-title-3{
+    width: 17.5%;
+    left: 82.5%;
+  }
+}
+@media (max-width : 767px){
+  #sec-1,#sec-2,#sec-3{
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
